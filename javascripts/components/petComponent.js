@@ -10,6 +10,24 @@ const showPets = () => {
     return pets;
 };
 
+const petsBuilder = (petsArray) => {
+    let domString = '';
+    petsArray.forEach((pet) => {
+        domString += `<div class="card border-success mb-3 pet-card">`;
+        domString +=    `<div class="card-header bg-transparent border-success" id="${pet.name}>`;
+        domString +=    `<div class="card-body text-success">`;
+        domString +=        `<img class="card-img-top" src="${pet.imageUrl}" alt="${pet.name}">`;        
+        domString +=        `<h5 class="card-title">${pet.color}</h5>`;
+        domString +=        `<p class="card-text">${pet.specialSkill}</p>`;
+        domString +=    `<div class="card-footer bg-transparent border-success" id="${pet.type}>`
+        domString +=    `</div>`;
+        domString +=    `</div>`;
+        domString +=    `</div>`;
+        domStrint += `</div>`;
+    });
+    printToDom(domString);
 
+}
 
 export {setPets, showPets};
+
