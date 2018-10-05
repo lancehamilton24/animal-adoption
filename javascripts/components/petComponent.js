@@ -1,1 +1,9 @@
-console.log('pet component')
+const setPets = (newArray) => {
+    pets = newArray;
+};
+
+const showPets = () => {
+    return pets;
+}
+
+export {setPets};

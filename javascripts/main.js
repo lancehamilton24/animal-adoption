@@ -1,6 +1,9 @@
-console.log('main.js')
+import {getPets} from './data/petData.js';
+
 const initializeApp = () => {
   
-    getCharacters();
+    console.log(getPets);
 
   };
+
+  initializeApp();
