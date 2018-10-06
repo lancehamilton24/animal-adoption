@@ -2,14 +2,24 @@ body {
     background-color: chocolate;
 }
 
-.pet-card{
-    display: inline-block;
+/*   
+  .pet-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%
+   
+  } */
+
+  #pets{
+    margin: 25px; 
+    
   }
-  
-  /* .card-img-top {
+
+
+  .card-img-top {
     height: 280px;
     width: 100%;
     object-fit: cover;
     object-position: 0 0;
     margin: 0 auto;
-  } */
+  }
