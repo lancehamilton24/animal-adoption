@@ -12,18 +12,19 @@ const showPets = () => {
 };
 
 const sortPets = (e) => {
-    const animal = e.target.id;
-    if(animal === 'all'){
-       console.log('hello'); 
-    } if (animal === 'catButton'){
-        console.log ('cats');
-    } if (animal === 'dogButton') {
-        console.log('dogs')
-    } if (animal === 'dinoButton'){
-        console.log('dinos');
-    } else {
-        console.log('error');
-    }
+    const type = e.target.id;
+    if(type === 'all'){
+       petsBuilder(pets); 
+    } if (type === 'cat'){
+        const filteredPets = pets.filter(x => x.type === type);
+        petsBuilder(filteredPets);
+    } if (type === 'dog') {
+        const filteredPets = pets.filter(x => x.type === type);
+        petsBuilder(filteredPets);
+    } if (type === 'dino'){
+        const filteredPets = pets.filter(x => x.type === type);
+        petsBuilder(filteredPets);
+    } 
 };
 
 const petsBuilder = (petsArray) => {
