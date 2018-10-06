@@ -2,12 +2,20 @@ body {
     background-color: chocolate;
 }
 
-.pets {
-  padding: 20px;
+/*   
+  .pet-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%
+   
+  } */
 
-
+  #pets{
+    margin: 25px; 
+    
   }
-  
+
+
   .card-img-top {
     height: 280px;
     width: 100%;
