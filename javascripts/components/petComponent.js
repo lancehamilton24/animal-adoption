@@ -11,6 +11,21 @@ const showPets = () => {
     return pets;
 };
 
+const sortPets = (e) => {
+    const animal = e.target.id;
+    if(animal === 'all'){
+       console.log('hello'); 
+    } if (animal === 'catButton'){
+        console.log ('cats');
+    } if (animal === 'dogButton') {
+        console.log('dogs')
+    } if (animal === 'dinoButton'){
+        console.log('dinos');
+    } else {
+        console.log('error');
+    }
+};
+
 const petsBuilder = (petsArray) => {
     let domString = '';
     petsArray.forEach((pet) => {
@@ -31,5 +46,5 @@ const petsBuilder = (petsArray) => {
 
 }
 
-export {setPets, showPets, petsBuilder};
+export {setPets, showPets, petsBuilder, sortPets};
 
