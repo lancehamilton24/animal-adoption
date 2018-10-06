@@ -1,16 +1,23 @@
 body {
     background-color: chocolate;
+    text-align: center;
 }
 
-/*   
+  
   .pet-card {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%
+    margin: 15px 0px
    
-  } */
+  }
+
+  .petSkill {
+    height: 50px;
+    overflow: scroll;
+  }
 
   #pets{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
     margin: 25px; 
     
   }
@@ -23,3 +30,5 @@ body {
     object-position: 0 0;
     margin: 0 auto;
   }
+
+ 
