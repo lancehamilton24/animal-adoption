@@ -37,12 +37,12 @@ const petsBuilder = (petsArray) => {
         domString +=        `<img class="card-img-top" src="${pet.imageUrl}" alt="${pet.name}">`;        
         domString +=        `<h5 class="card-title">${pet.color}</h5>`;
         domString +=        `<p class="card-text petSkill">${pet.specialSkill}</p>`;
-        domString +=    `<div class="card-footer bg-transparent border-success">${pet.type}`
+        domString +=    `<div class="card-footer bg-transparent border-success petType">${pet.type}`
         domString +=    `</div>`;
         domString +=    `</div>`;
         domString +=    `</div>`;
         domString += `</div>`;
-        domString += `</div>`;
+        domString += `</div>`; 
         
     });
     printToDom(domString);

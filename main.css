@@ -11,7 +11,7 @@ body {
 
   .petSkill {
     height: 50px;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 
   #pets{
@@ -22,6 +22,13 @@ body {
     
   }
 
+  .btn {
+    margin: 10px;
+  }
+
+  .petType {
+    border: dotted; 
+  }
 
   .card-img-top {
     height: 280px;
