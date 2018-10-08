@@ -3,7 +3,7 @@
 This project is an exploration of javascript sorting functions. I printed all animal cards the dom and added the ability to hide and show specific animal cards according to animal type. 
 
 ## Screenshots
-![main screenshot](./img/animal adoption.JPG)
+![main screenshot](./img/adoption.JPG)
 
 ## How to run this project
 * Use npm to install http-server in your terminal:
